@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GameData" representedClassName="GameData" syncable="YES" codeGenerationType="class">
+        <attribute name="gameDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gameGenre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gameId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gameName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gamePlatform" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserData" representedClassName="UserData" syncable="YES" codeGenerationType="class">
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeofuser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="GameData" positionX="-45" positionY="27" width="128" height="120"/>
+        <element name="UserData" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>
